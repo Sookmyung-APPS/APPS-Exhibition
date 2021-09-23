@@ -25,7 +25,7 @@ function Header(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to={"/info"}>소개</Nav.Link>
+            <Nav.Link href="/info">소개</Nav.Link>
             <Nav.Link href="#link">프로젝트</Nav.Link>
           </Nav>
         </Navbar.Collapse>
