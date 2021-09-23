@@ -10,8 +10,8 @@ function ImagePoster() {
     <>
       <Figure style={{ width: "20rem" }}>
         <Figure.Image
-          width={171}
-          height={180}
+          width={170}
+          height={280}
           alt="171x180"
           src={require("../Assets/poster.png").default}
           onClick={handleShow}
