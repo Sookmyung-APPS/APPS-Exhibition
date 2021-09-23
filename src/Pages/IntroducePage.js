@@ -12,7 +12,7 @@ function IntroduePage(){
            <div id="BigAppsImg">
            <img
             src={require("../Assets/apps_logo.png").default}
-            className="w-75"
+            className="w-50"
           /></div>
           <AppsInfo/>
           <AppsMember/>

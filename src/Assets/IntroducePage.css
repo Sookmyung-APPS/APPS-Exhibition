@@ -26,11 +26,24 @@ table td{
 
 #appsinfo_1{
     font-family: 'Pretendard-Regular';
-
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: 1cm;
 }
 
-.appsinfo_2{
+#appsinfo_2{
     font-family: 'IBMPlexSansKR-Regular';
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+#ImgTitle{
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 

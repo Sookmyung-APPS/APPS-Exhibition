@@ -4,7 +4,7 @@ import React from "react";
 function AppsMember(){
     return(
         <div class="container">
-            <h1> 2021 Sookmyung APPS Member</h1>
+            <h1 id="ImgTitle"> 2021 Sookmyung APPS Member</h1>
             <table class="table">
                 <tbody>
                     <tr>
