@@ -11,6 +11,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
 
 #BigAppsImg{
     text-align: center;
@@ -26,24 +32,35 @@ table td{
 
 #appsinfo_1{
     font-family: 'Pretendard-Regular';
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    font-size: large;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
     line-height: 1cm;
 }
 
 #appsinfo_2{
     font-family: 'IBMPlexSansKR-Regular';
+    font-size: large;
     font-weight: 900;
     letter-spacing: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #ImgTitle{
+    
     font-weight: 900;
     padding-top: 30px;
     padding-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+img{
+    width: 100;
+}
+
+h5{
+    font-family: 'Pretendard-Regular';
 }
 

@@ -6,7 +6,7 @@ function MainPage() {
   return (
     <div>
       <Header />
-      <ImageMenu />
+      <ImageMenu/>
     </div>
   );
 }
