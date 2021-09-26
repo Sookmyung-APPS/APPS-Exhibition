@@ -3,7 +3,7 @@ import React from "react";
 
 function ImageMenu() {
   return (
-    <Carousel>
+    <Carousel style={{ margin: "0 70px" }}>
       <Carousel.Item>
         <img
           className="d-block w-100"

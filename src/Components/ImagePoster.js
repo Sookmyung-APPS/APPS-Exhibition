@@ -1,28 +1,44 @@
 import { Figure, Modal } from "react-bootstrap";
 import React, { useState } from "react";
 
-function ImagePoster() {
+function ImagePoster(props) {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const iframeStyle = {
+    width: "100%",
+    height: "30vw",
+  };
+
   return (
     <>
       <Figure style={{ width: "20rem" }}>
         <Figure.Image
-          width={171}
-          height={180}
+          width={170}
+          height={280}
           alt="171x180"
-          src={require("../Assets/poster.png").default}
+          src={props.poster}
           onClick={handleShow}
         />
       </Figure>
 
       <Modal show={show} onHide={handleClose} animation={false} centered>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>{props.name}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>
+          <div>
+            <iframe
+              style={iframeStyle}
+              src={props.link}
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </Modal.Body>
         <Modal.Footer></Modal.Footer>
       </Modal>
     </>

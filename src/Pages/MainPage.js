@@ -2,14 +2,94 @@ import { Row, Col } from "react-bootstrap";
 import React from "react";
 import Header from "../Components/Header";
 import ImageMenu from "../Components/ImageMenu";
+import Video from "../Components/Video";
 import ImagePoster from "../Components/ImagePoster";
 
+const array = [
+  {
+    name: "CapturedMoment",
+    src: "img/순간포착.jpeg",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "DeliveryRun",
+    src: "img/deliveryRun.png",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "일력",
+    src: "img/일력.PNG",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "LightAway",
+    src: "img/lightAway.jpg",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "SoundOfFaires",
+    src: "img/soundOfFairies.png",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "Comsongz",
+    src: "img/컴송즈.jpeg",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "ALittleDruid",
+    src: "img/ALittleDruid.jpg",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "정채영",
+    src: "img/ALittleDruid.jpg",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "정민영",
+    src: "img/정민영_세로사진.jpeg",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "장나리",
+    src: "img/장나리_세로사진.jpeg",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "이가을",
+    src: "img/이가을_세로사진.PNG",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "박해지",
+    src: "img/박해지_세로사진.png",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "김진영",
+    src: "img/김진영_세로사진.jpeg",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "김다연",
+    src: "img/김다연_세로사진.png",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "강단이",
+    src: "img/김다연_세로사진.png",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+];
+
 function MainPage() {
-  const posters = [1, 2, 3, 4, 5, 6, 7, 8];
   return (
     <div>
       <Header />
       <ImageMenu />
+      <br />
+      <Video />
       <br />
       <br />
       <p style={{ textAlign: "center", fontWeight: "bold" }}>
@@ -21,26 +101,137 @@ function MainPage() {
         md={5}
         className="g-6"
         style={{
+          margin: "30px",
+        }}
+      >
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[0].name}
+            poster={array[0].src}
+            link={array[0].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[1].name}
+            poster={array[1].src}
+            link={array[1].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[2].name}
+            poster={array[2].src}
+            link={array[2].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[3].name}
+            poster={array[3].src}
+            link={array[3].link}
+          />
+        </Col>
+      </Row>
+      <Row
+        xs={1}
+        md={5}
+        className="g-6"
+        style={{
           marginLeft: "50px",
           marginTop: "50px",
           marginRight: "50px",
           marginBottom: "50px",
         }}
       >
-        {posters.map((poster) => {
-          return (
-            <Col
-              style={{
-                marginBottom: "25px",
-                display: "flex",
-                width: "maxWidth",
-                flexWrap: "wrap",
-              }}
-            >
-              <ImagePoster poster={poster} />
-            </Col>
-          );
-        })}
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[4].name}
+            poster={array[4].src}
+            link={array[4].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[5].name}
+            poster={array[5].src}
+            link={array[5].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[6].name}
+            poster={array[6].src}
+            link={array[6].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[7].name}
+            poster={array[7].src}
+            link={array[7].link}
+          />
+        </Col>
+      </Row>
+      <Row
+        xs={1}
+        md={5}
+        className="g-6"
+        style={{
+          margin: "30px",
+        }}
+      >
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[8].name}
+            poster={array[8].src}
+            link={array[8].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[9].name}
+            poster={array[9].src}
+            link={array[9].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[10].name}
+            poster={array[10].src}
+            link={array[10].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[11].name}
+            poster={array[11].src}
+            link={array[11].link}
+          />
+        </Col>
+      </Row>
+      <Row
+        xs={1}
+        md={5}
+        className="g-6"
+        style={{
+          margin: "30px",
+        }}
+      >
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[12].name}
+            poster={array[12].src}
+            link={array[12].link}
+          />
+        </Col>
+        <Col style={{ margin: "5px auto" }}>
+          <ImagePoster
+            name={array[13].name}
+            poster={array[13].src}
+            link={array[13].link}
+          />
+        </Col>
       </Row>
     </div>
   );
