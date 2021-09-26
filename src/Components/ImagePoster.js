@@ -18,7 +18,7 @@ function ImagePoster(props) {
           width={170}
           height={280}
           alt="171x180"
-          src={require("../Assets/poster.png").default}
+          src={props.poster}
           onClick={handleShow}
         />
       </Figure>
