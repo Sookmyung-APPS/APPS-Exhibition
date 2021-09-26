@@ -3,6 +3,7 @@ import React from "react";
 import MainPage from "./Pages/MainPage";
 import ProjectPage from "./Pages/ProjectPage";
 import IndivPage from "./Pages/IndivPage";
+import IntroducePage from "./Pages/IntroducePage";
 
 /** 이름 통일 필요
  * CapturedMoment --> 순간포착
@@ -14,6 +15,7 @@ function App() {
     <span className="App">
       <BrowserRouter>
         <Route path="/" exact component={MainPage} />
+        <Route path="/introduce" exact component ={IntroducePage} />
         <Route path="/project" exact component ={ProjectPage} />
         <Route path="/project/CapturedMoment" render={() => <IndivPage name="CapturedMoment" />}/>
         <Route path="/project/DeliveryRun" render={() => <IndivPage name="DeliveryRun" />}/>
