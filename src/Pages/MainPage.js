@@ -8,77 +8,77 @@ import ImagePoster from "../Components/ImagePoster";
 const array = [
   {
     name: "CapturedMoment",
-    src: "img/순간포착.jpeg",
+    src: "img_row/순간포착.jpeg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "DeliveryRun",
-    src: "img/deliveryRun.png",
+    src: "img_row/deliveryRun.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "일력",
-    src: "img/일력.PNG",
+    src: "img_row/일력.PNG",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "LightAway",
-    src: "img/lightAway.jpg",
+    src: "img_row/lightAway.jpg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "SoundOfFaires",
-    src: "img/soundOfFairies.png",
+    src: "img_row/soundOfFairies.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "Comsongz",
-    src: "img/컴송즈.jpeg",
+    src: "img_row/컴송즈.jpeg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "ALittleDruid",
-    src: "img/ALittleDruid.jpg",
+    src: "img_row/ALittleDruid.jpg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "정채영",
-    src: "img/ALittleDruid.jpg",
+    src: "img_row/ALittleDruid.jpg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "정민영",
-    src: "img/정민영_세로사진.jpeg",
+    src: "img_row/정민영_세로사진.jpeg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "장나리",
-    src: "img/장나리_세로사진.jpeg",
+    src: "img_row/장나리_세로사진.jpeg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "이가을",
-    src: "img/이가을_세로사진.PNG",
+    src: "img_row/이가을_세로사진.PNG",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "박해지",
-    src: "img/박해지_세로사진.png",
+    src: "img_row/박해지_세로사진.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "김진영",
-    src: "img/김진영_세로사진.jpeg",
+    src: "img_row/김진영_세로사진.jpeg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "김다연",
-    src: "img/김다연_세로사진.png",
+    src: "img_row/김다연_세로사진.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
     name: "강단이",
-    src: "img/김다연_세로사진.png",
+    src: "img_row/김다연_세로사진.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
 ];
