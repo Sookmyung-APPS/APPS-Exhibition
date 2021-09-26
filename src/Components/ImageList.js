@@ -1,5 +1,4 @@
 import dummy from "../db/MembersImg.json";
-import {useParams} from "react-router-dom";
 
 
 function ImageList(){
