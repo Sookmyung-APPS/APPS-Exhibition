@@ -155,8 +155,8 @@ class ProjectList extends React.Component {
                     display: "block"
                 },
                 {
-                    name: "순간포착",
-                    team: "팀명",
+                    name: "스팟 지도 웹서비스",
+                    team: "순간포착",
                     img: "/images/SGPC_Horizontal.png",
                     year: "2021",
                     type: "웹/앱",
