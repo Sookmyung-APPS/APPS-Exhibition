@@ -7,7 +7,7 @@ function ImageList(){
             <tr>
                 {dummy.imageList1.map(image => (
                     <td key={image.id}>
-                        <img src={image.img} width="130" ></img>
+                        <img src={image.img} width="130" alt="" ></img>
                         <h5>{image.name}</h5>
                     </td>
                 ))}
@@ -15,7 +15,7 @@ function ImageList(){
             <tr>
                 {dummy.imageList2.map(image => (
                     <td key={image.id}>
-                        <img src={image.img} width="130" ></img>
+                        <img src={image.img} width="130" alt="" ></img>
                         <h5>{image.name}</h5>
                     </td>
                 ))}
@@ -23,7 +23,7 @@ function ImageList(){
             <tr>
                 {dummy.imageList3.map(image => (
                     <td key={image.id}>
-                        <img src={image.img} width="130" ></img>
+                        <img src={image.img} width="130" alt="" ></img>
                         <h5>{image.name}</h5>
                     </td>
                 ))}
@@ -31,7 +31,7 @@ function ImageList(){
             <tr>
                 {dummy.imageList4.map(image => (
                     <td key={image.id}>
-                        <img src={image.img} width="130" ></img>
+                        <img src={image.img} width="130" alt="" ></img>
                         <h5>{image.name}</h5>
                     </td>
                 ))}
@@ -39,7 +39,7 @@ function ImageList(){
             <tr>
                 {dummy.imageList5.map(image => (
                     <td key={image.id}>
-                        <img src={image.img} width="130" ></img>
+                        <img src={image.img} width="130" alt="" ></img>
                         <h5>{image.name}</h5>
                     </td>
                 ))}
@@ -47,7 +47,7 @@ function ImageList(){
             <tr>
                 {dummy.imageList6.map(image => (
                     <td key={image.id}>
-                        <img src={image.img} width="130" ></img>
+                        <img src={image.img} width="130" alt="" ></img>
                         <h5>{image.name}</h5>
                     </td>
                 ))}

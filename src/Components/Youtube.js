@@ -1,4 +1,6 @@
 import React from "react";
+import "../Assets/indiv.css";
+
 
 const array = [
     {
@@ -28,24 +30,59 @@ const array = [
     {
         name: "ALittleDruid",
         link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
-    }
+    },
+    {
+        name: "강단이",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
+    {
+        name: "김다연",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
+    {
+        name: "김진영",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
+    {
+        name: "박해지",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
+    {
+        name: "이가을",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
+    {
+        name: "장나리",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
+    {
+        name: "정민영",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
+    {
+        name: "정채영",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
+    {
+        name: "홍희수",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
+    {
+        name: "황수연",
+        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+    },
 ];
 
 
 function Youtube ( { name }) {
-    const iframeStyle = {
-        width: "100%",
-        height: "30vw",
-    }
-
 
     const realName = name;
     const index = array.findIndex(i => i.name === realName);
 
     return (
         <div>
-            <iframe style={iframeStyle} src={array[index].link} title="YouTube video player"  frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src={array[index].link} title="YouTube video player"  frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </div>
     )
 }

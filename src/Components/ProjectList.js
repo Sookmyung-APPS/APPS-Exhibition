@@ -73,7 +73,7 @@ const projectListCopy = [
         display: "block"
     },
     {
-        name: "Terraforming(테라포밍)",
+        name: "Terraforming",
         team: "김다연",
         img: "/images/Dayeon_Horizontal.png",
         year: "2021",
@@ -187,7 +187,7 @@ class ProjectList extends React.Component {
                     display: "block"
                 },
                 {
-                    name: "Terraforming(테라포밍)",
+                    name: "Terraforming",
                     team: "김다연",
                     img: "/images/Dayeon_Horizontal.png",
                     year: "2021",

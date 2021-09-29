@@ -35,7 +35,58 @@ const array = [
         name: "ALittleDruid",
         DownloadLink: "https://www.naver.com/",
         GithubLink: "https://github.com/jung-jane"    
-    }
+    },
+    {   //강단이
+        name: "강단이",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+          
+    },
+    {   //김다연
+        name: "김다연",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+    },
+    {   //김진영
+        name: "김진영",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+    },
+    {   //박해지
+        name: "박해지",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+    },
+    {   //이가을
+        name: "이가을",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+    },
+    {   //장나리
+        name: "장나리",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+    },
+    {   //정민영
+        name: "정민영",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+    },
+    {   //정채영
+        name: "정채영",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+    },
+    {   //홍희수
+        name: "홍희수",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+    },
+    {   //황수연
+        name: "황수연",
+        DownloadLink: "https://www.naver.com/",
+        GithubLink: "https://github.com/jung-jane"
+    },
 ];
 
 function Download ( { name }) {
@@ -45,11 +96,10 @@ function Download ( { name }) {
     }
     const devIMG = {
         justifyContent: "center",
-        width: "100px",
-        height: "100px",
-        backgroundColor: "blueviolet",
+        width: "110px", 
         margin: "20px",
-        ObjectFit: "cover",
+        padding: "10px",
+        ObjectFit: "fill",
         marginBottom: "30px"
     }
 
