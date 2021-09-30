@@ -43,7 +43,7 @@ const array = [
   },
   {
     name: "정채영",
-    src: "img_row/ALittleDruid.jpg",
+    src: "img_row/정채영_세로사진.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
