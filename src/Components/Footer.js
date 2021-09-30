@@ -15,7 +15,7 @@ const context = {
 }
 const type = {
     marginLeft:"40px",
-    marginRight: "-55vw"
+    marginRight: "-300px"
 }
 
 function Footer(props){
