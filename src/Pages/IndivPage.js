@@ -7,6 +7,7 @@ import MainImg from "../Components/MainImg";
 import Youtube from "../Components/Youtube";
 import IndivMemoji from "../Components/IndivMemoji";
 import "../Assets/font.css";
+import Footer from "../Components/Footer";
 
 //name자리에 링크에 들어가는 부분 props로 전달..
 // 1. 메인 이미지 받아오기 -> 성공
@@ -49,6 +50,7 @@ function IndivPage( { name } ) {
           <Download name={name}/>
         </div>  
       </Col>
+      <Footer />
     </div>
   );
 }

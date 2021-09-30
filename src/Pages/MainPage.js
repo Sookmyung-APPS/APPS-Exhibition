@@ -4,6 +4,7 @@ import Header from "../Components/Header";
 import ImageMenu from "../Components/ImageMenu";
 import Video from "../Components/Video";
 import ImagePoster from "../Components/ImagePoster";
+import Footer from "../Components/Footer";
 
 const array = [
   {
@@ -221,6 +222,7 @@ function MainPage() {
           />
         </Col>
       </Row>
+      <Footer />
     </div>
   );
 }

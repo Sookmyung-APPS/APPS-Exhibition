@@ -4,7 +4,7 @@ import React from "react";
 const array = [
     {
         id: 1,
-        name: "CapturedMoment",
+        name: "스팟지도웹서비스",
         project: "순간포착",
         value: "◼️ 팀명 : 순간포착\n\n🗺️ 작품 소개\n" +
         "지도를 기반으로한 출사지 추천 웹서비스이다. \n 다른 SNS와 달리 텍스트보다 사진 그리고 사진을 찍은 장소 정보를 공유하는 것을 중점으로 한다.\n"+
@@ -73,7 +73,7 @@ const array = [
         }
     },
     {   id:5,
-        name: "SoundOfFaires",
+        name: "SoundOfFairies",
         project: "Sound Of Fairies",
         value: "◼️ 팀명 : 아리송\n\n🗺️ 게임 시나리오\n"+
         "하늘에서 내리는 빗물에서 에너지를 얻으며 살아가는 빗물소리\n마을의 요정들은"+

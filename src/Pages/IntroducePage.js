@@ -4,6 +4,7 @@ import AppsInfo from "../Components/AppsInfo";
 import AppsMember from "../Components/AppsMember";
 import '../Assets/IntroducePage.css'
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 
 function IntroduePage(){
@@ -18,7 +19,7 @@ function IntroduePage(){
           /></div>
           <AppsInfo/>
           <AppsMember/>
-
+          <Footer />
        </div>
    );
 }

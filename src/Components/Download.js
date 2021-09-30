@@ -2,7 +2,7 @@ import React from "react";
 
 const array = [
     {
-        name: "CapturedMoment",
+        name: "스팟지도웹서비스",
         DownloadLink: "https://github.com/jung-jane",
         GithubLink: "https://github.com/jung-jane"    
     },
@@ -22,7 +22,7 @@ const array = [
         GithubLink: "https://github.com/jung-jane"    
     },
     {
-        name: "SoundOfFaires",
+        name: "SoundOfFairies",
         DownloadLink: "https://www.naver.com/",
         GithubLink: "https://github.com/jung-jane"    
     },
