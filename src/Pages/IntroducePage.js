@@ -14,8 +14,8 @@ function IntroduePage(){
            <Header />
            <div id="BigAppsImg">
            <img
-            src={require("../Assets/apps_logo.png").default}
-            className="w-50"
+            src={require("../Assets/IntroducePageImg.png").default}
+            className="w-75"
           /></div>
           <AppsInfo/>
           <AppsMember/>
