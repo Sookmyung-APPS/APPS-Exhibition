@@ -44,7 +44,7 @@ const array = [
   },
   {
     name: "정채영",
-    src: "img_row/ALittleDruid.jpg",
+    src: "img_row/정채영_세로사진.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
@@ -78,8 +78,13 @@ const array = [
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
+    name: "홍희수",
+    src: "img_row/홍희수_세로사진.png",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
     name: "강단이",
-    src: "img_row/김다연_세로사진.png",
+    src: "img_row/강단이_세로사진.jpeg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
 ];
@@ -97,140 +102,123 @@ function MainPage() {
         2021 APPS EXHIBITION
       </p>
 
-      <Row
-        xs={1}
-        md={5}
-        className="g-6"
-        style={{
-          margin: "30px",
-        }}
-      >
-        <Col style={{ margin: "5px auto" }}>
+      <Row className="g-6" style={{ marginLeft: "155px" }}>
+        <Col md={2} style={{ marginRight: "3px" }}>
           <ImagePoster
             name={array[0].name}
             poster={array[0].src}
             link={array[0].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ margin: "0px 3px" }}>
           <ImagePoster
             name={array[1].name}
             poster={array[1].src}
             link={array[1].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ margin: "0px 3px" }}>
           <ImagePoster
             name={array[2].name}
             poster={array[2].src}
             link={array[2].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ margin: "0px 3px" }}>
           <ImagePoster
             name={array[3].name}
             poster={array[3].src}
             link={array[3].link}
           />
         </Col>
-      </Row>
-      <Row
-        xs={1}
-        md={5}
-        className="g-6"
-        style={{
-          marginLeft: "50px",
-          marginTop: "50px",
-          marginRight: "50px",
-          marginBottom: "50px",
-        }}
-      >
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ marginLeft: "6px" }}>
           <ImagePoster
             name={array[4].name}
             poster={array[4].src}
             link={array[4].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+      </Row>
+      <Row className="g-6" style={{ marginLeft: "155px" }}>
+        <Col md={2} style={{ marginRight: "3px" }}>
           <ImagePoster
             name={array[5].name}
             poster={array[5].src}
             link={array[5].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ margin: "0px 3px" }}>
           <ImagePoster
             name={array[6].name}
             poster={array[6].src}
             link={array[6].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ margin: "0px 3px" }}>
           <ImagePoster
             name={array[7].name}
             poster={array[7].src}
             link={array[7].link}
           />
         </Col>
-      </Row>
-      <Row
-        xs={1}
-        md={5}
-        className="g-6"
-        style={{
-          margin: "30px",
-        }}
-      >
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ margin: "0px 3px" }}>
           <ImagePoster
             name={array[8].name}
             poster={array[8].src}
             link={array[8].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ marginLeft: "6px" }}>
           <ImagePoster
             name={array[9].name}
             poster={array[9].src}
             link={array[9].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+      </Row>
+      <Row className="g-6" style={{ marginLeft: "155px" }}>
+        <Col md={2} style={{ marginRight: "3px" }}>
           <ImagePoster
             name={array[10].name}
             poster={array[10].src}
             link={array[10].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ margin: "0px 3px" }}>
           <ImagePoster
             name={array[11].name}
             poster={array[11].src}
             link={array[11].link}
           />
         </Col>
-      </Row>
-      <Row
-        xs={1}
-        md={5}
-        className="g-6"
-        style={{
-          margin: "30px",
-        }}
-      >
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ margin: "0px 3px" }}>
           <ImagePoster
             name={array[12].name}
             poster={array[12].src}
             link={array[12].link}
           />
         </Col>
-        <Col style={{ margin: "5px auto" }}>
+        <Col md={2} style={{ margin: "0px 3px" }}>
           <ImagePoster
             name={array[13].name}
             poster={array[13].src}
             link={array[13].link}
+          />
+        </Col>
+        <Col md={2} style={{ marginLeft: "6px" }}>
+          <ImagePoster
+            name={array[14].name}
+            poster={array[14].src}
+            link={array[14].link}
+          />
+        </Col>
+      </Row>
+      <Row className="g-6" style={{ marginLeft: "155px" }}>
+        <Col md={2} style={{ marginRight: "3px" }}>
+          <ImagePoster
+            name={array[15].name}
+            poster={array[15].src}
+            link={array[15].link}
           />
         </Col>
       </Row>
