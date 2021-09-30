@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import ProjectList from "../Components/ProjectList";
+import Footer from "../Components/Footer";
 import "../ProjectPage.css";
 
 function ProjectPage() {
@@ -10,6 +11,7 @@ function ProjectPage() {
       <div className="ProjectPage">
         <ProjectList />
       </div>
+      <Footer />
     </div>
   );
 }

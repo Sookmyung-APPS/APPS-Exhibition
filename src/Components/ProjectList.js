@@ -41,8 +41,8 @@ const projectListCopy = [
         display: "block"
     },
     {
-        name: "순간포착",
-        team: "팀명",
+        name: "스팟 지도 웹서비스",
+        team: "순간포착",
         img: "/images/SGPC_Horizontal.png",
         year: "2021",
         type: "웹/앱",
@@ -57,7 +57,7 @@ const projectListCopy = [
         display: "block"
     },
     {
-        name: "학과소개 홈페이지",
+        name: "Comsongz",
         team: "컴송즈",
         img: "/images/Comsongz_Horizontal.png",
         year: "2021",
@@ -97,6 +97,14 @@ const projectListCopy = [
         display: "block"
     },
     {
+        name: "SNOW JUMP",
+        team: "이가을",
+        img: "/images/Gaeul_Horizontal.png",
+        year: "2021",
+        type: "유니티 기초",
+        display: "block"
+    },
+    {
         name: "Snowrun",
         team: "장나리",
         img: "/images/Nari_Horizontal.jpeg",
@@ -108,6 +116,22 @@ const projectListCopy = [
         name: "2D 눈송이 게임",
         team: "정민영",
         img: "/images/Minyeong_Horizontal.jpeg",
+        year: "2021",
+        type: "유니티 기초",
+        display: "block"
+    },
+    {
+        name: "Rolling Ball",
+        team: "정채영",
+        img: "/images/Chaeyoung_Horizontal.png",
+        year: "2021",
+        type: "유니티 기초",
+        display: "block"
+    },
+    {
+        name: "눈송이 공 굴리기",
+        team: "홍희수",
+        img: "/images/Heesoo_Horizontal.png",
         year: "2021",
         type: "유니티 기초",
         display: "block"
@@ -171,7 +195,7 @@ class ProjectList extends React.Component {
                     display: "block"
                 },
                 {
-                    name: "학과소개 홈페이지",
+                    name: "Comsongz",
                     team: "컴송즈",
                     img: "/images/Comsongz_Horizontal.png",
                     year: "2021",
@@ -211,6 +235,14 @@ class ProjectList extends React.Component {
                     display: "block"
                 },
                 {
+                    name: "SNOW JUMP",
+                    team: "이가을",
+                    img: "/images/Gaeul_Horizontal.png",
+                    year: "2021",
+                    type: "유니티 기초",
+                    display: "block"
+                },
+                {
                     name: "Snowrun",
                     team: "장나리",
                     img: "/images/Nari_Horizontal.jpeg",
@@ -222,6 +254,22 @@ class ProjectList extends React.Component {
                     name: "2D 눈송이 게임",
                     team: "정민영",
                     img: "/images/Minyeong_Horizontal.jpeg",
+                    year: "2021",
+                    type: "유니티 기초",
+                    display: "block"
+                },
+                {
+                    name: "Rolling Ball",
+                    team: "정채영",
+                    img: "/images/Chaeyoung_Horizontal.png",
+                    year: "2021",
+                    type: "유니티 기초",
+                    display: "block"
+                },
+                {
+                    name: "눈송이 공 굴리기",
+                    team: "홍희수",
+                    img: "/images/Heesoo_Horizontal.png",
                     year: "2021",
                     type: "유니티 기초",
                     display: "block"
