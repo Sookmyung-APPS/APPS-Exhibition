@@ -9,9 +9,6 @@ function ImageList(){
     const devImg={
         width:"10vw"
     }
-    const tdstyle={
-        width:"0"
-    }
     
     return <div style={dev}>
         <table class="table">

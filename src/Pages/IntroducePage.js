@@ -9,17 +9,26 @@ import Footer from "../Components/Footer";
 
 function IntroduePage(){
     const infoimg = "../Assets/apps_logo.png";
+    const imgstyle={
+        width:"45vw"
+    }
    return(
-       <div class="container">
-           <Header />
-           <div id="BigAppsImg">
-           <img
-            src={require("../Assets/IntroducePageImg.png").default}
-            className="w-75"
-          /></div>
-          <AppsInfo/>
-          <AppsMember/>
-          <Footer />
+       <div>
+        <div class="container">
+            <Header />
+        </div>
+
+        <div id="BigAppsImg">
+            <img
+                src={require("../Assets/IntroducePageImg.png").default}
+                style={imgstyle}
+            /></div>
+
+        <div>
+            <AppsInfo/>
+            <AppsMember/>
+            <Footer />
+        </div>
        </div>
    );
 }
