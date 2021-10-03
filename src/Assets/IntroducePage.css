@@ -26,6 +26,9 @@
 
 #BigAppsImg{
     text-align: center;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 7vw;
 }
 
 table{
@@ -50,17 +53,17 @@ table td{
     font-weight: 900;
     letter-spacing: 1px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #ImgTitle{
-    
+    text-align: center;
     font-size: 2.6em;
     font-weight: 900;
     padding-top: 30px;
     padding-bottom: 20px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 4vw;
 }
 
 img{

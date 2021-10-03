@@ -4,7 +4,7 @@ import "../Assets/indiv.css";
 
 const array = [
     {
-        name: "CapturedMoment",
+        name: "스팟지도웹서비스",
         link: "https://www.youtube.com/embed/Nr7R3mDeJsk"    
     },
     {
@@ -20,7 +20,7 @@ const array = [
         link: "https://www.youtube.com/embed/Nr7R3mDeJsk" 
     },
     {
-        name: "SoundOfFaires",
+        name: "SoundOfFairies",
         link: "https://www.youtube.com/embed/Nr7R3mDeJsk" 
     },
     {

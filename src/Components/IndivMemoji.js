@@ -13,7 +13,7 @@ function Memoji({image}) {
 
 const array = [
     {   //곽효림, 김예진, 김혜수, 장현애, 정제인
-        projectName: "CapturedMoment",
+        projectName: "스팟지도웹서비스",
         memoji: ["/memoji/Hyesu(김혜수).png","/memoji/Yejin(김예진).jpeg", "/memoji/Hyeonae(장현애).png", "/memoji/Jane(정제인).png"],    
     },
     {   //심채영, 김예진, 유정현
@@ -29,7 +29,7 @@ const array = [
         memoji: ["/memoji/Minji(권민지).png", "/memoji/Jeonghyeon(황정현).jpeg", "/memoji/Jinhee(박진희).jpg" ],    
     },
     {   //고예린, 최은형, 황유경
-        projectName: "SoundOfFaires",
+        projectName: "SoundOfFairies",
         memoji: ["/memoji/Yerin(고예린).png","/memoji/Eunhyung(최은형).png", "/memoji/YuKyung(황유경).jpg" ],    
     },
     {   //정제인, 현유경, 윤다빈

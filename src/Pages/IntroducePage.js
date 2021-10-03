@@ -4,21 +4,31 @@ import AppsInfo from "../Components/AppsInfo";
 import AppsMember from "../Components/AppsMember";
 import '../Assets/IntroducePage.css'
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 
 function IntroduePage(){
     const infoimg = "../Assets/apps_logo.png";
+    const imgstyle={
+        width:"45vw"
+    }
    return(
-       <div class="container">
-           <Header />
-           <div id="BigAppsImg">
-           <img
-            src={require("../Assets/apps_logo.png").default}
-            className="w-50"
-          /></div>
-          <AppsInfo/>
-          <AppsMember/>
+       <div>
+        <div class="container">
+            <Header />
+        </div>
 
+        <div id="BigAppsImg">
+            <img
+                src={require("../Assets/IntroducePageImg.png").default}
+                style={imgstyle}
+            /></div>
+
+        <div>
+            <AppsInfo/>
+            <AppsMember/>
+            <Footer />
+        </div>
        </div>
    );
 }
