@@ -2,8 +2,8 @@ import React from "react";
 
 function Video() {
   const iframeStyle = {
-    width: "800px",
-    height: "400px",
+    width: "900px",
+    height: "450px",
     margin: "0 auto",
   };
 

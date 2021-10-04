@@ -4,22 +4,21 @@ import Header from "../Components/Header";
 import ImageMenu from "../Components/ImageMenu";
 import Video from "../Components/Video";
 import ImagePoster from "../Components/ImagePoster";
-import Footer from "../Components/Footer";
 
 const array = [
   {
     name: "CapturedMoment",
-    src: "img_row/순간포착.jpeg",
+    src: "img_row/순간포착_세로.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
-    name: "DeliveryRun",
-    src: "img_row/deliveryRun.png",
+    name: "Comsongz",
+    src: "img_row/컴송즈_세로.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
-    name: "일력",
-    src: "img_row/일력.PNG",
+    name: "정채영",
+    src: "img_row/정채영_세로사진.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
@@ -33,8 +32,13 @@ const array = [
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
-    name: "Comsongz",
-    src: "img_row/컴송즈.jpeg",
+    name: "DeliveryRun",
+    src: "img_row/deliveryRun.png",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
+    name: "일력",
+    src: "img_row/일력_세로사진.PNG",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
@@ -43,13 +47,8 @@ const array = [
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
-    name: "정채영",
-    src: "img_row/ALittleDruid.jpg",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
-  },
-  {
     name: "정민영",
-    src: "img_row/정민영_세로사진.jpeg",
+    src: "img_row/정민영_세로.jpg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
@@ -73,8 +72,8 @@ const array = [
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
-    name: "김다연",
-    src: "img_row/김다연_세로사진.png",
+    name: "강단이",
+    src: "img_row/강단이_세로사진.jpeg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
@@ -83,8 +82,8 @@ const array = [
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
-    name: "강단이",
-    src: "img_row/강단이_세로사진.jpeg",
+    name: "김다연",
+    src: "img_row/김다연_세로사진.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
 ];
@@ -320,7 +319,6 @@ function MainPage() {
           />
         </Col>
       </Row>
-      <Footer />
     </div>
   );
 }
