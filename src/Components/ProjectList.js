@@ -67,7 +67,7 @@ const projectListCopy = [
     {
         name: "눈송이 메이커",
         team: "강단이",
-        img: "/images/Dani_Horizontal.jpeg",
+        img: "/images/Dani_Horizontal.jpg",
         year: "2021",
         type: "유니티 기초",
         display: "block"
@@ -205,7 +205,7 @@ class ProjectList extends React.Component {
                 {
                     name: "눈송이 메이커",
                     team: "강단이",
-                    img: "/images/Dani_Horizontal.jpeg",
+                    img: "/images/Dani_Horizontal.jpg",
                     year: "2021",
                     type: "유니티 기초",
                     display: "block"
