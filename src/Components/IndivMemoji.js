@@ -34,7 +34,7 @@ const array = [
     },
     {   //정제인, 현유경, 윤다빈
         projectName: "Comsongz",
-        memoji: ["/memoji/Jane(정제인).png", "/memoji/Hyesu(김혜수).png", "/memoji/Dabin(윤다빈).jpg" ],    
+        memoji: ["/memoji/Jane(정제인).png", "/memoji/Yugyeong(현유경).png", "/memoji/Dabin(윤다빈).png" ],    
     },
     {   //심채영, 김예진, 황정현, 장현애
         projectName: "ALittleDruid",
@@ -76,10 +76,6 @@ const array = [
         projectName: "홍희수",
         memoji: ["/memoji/Heesoo.png" ],   
     },
-    {   //황수연
-        projectName: "황수연",
-        memoji: ["/memoji/Suyeon(황수연).png" ],   
-    },
 ];
 
 
@@ -88,6 +84,7 @@ function IndivMemoji ( {name} ) {
     const dev = {
         display: "flex",
         justifyContent: "center",
+        marginBottom: "20px"
     }
 
     const index = array.findIndex(i => i.projectName === name);

@@ -67,10 +67,6 @@ const array = [
         name: "홍희수",
         link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
     },
-    {
-        name: "황수연",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
-    },
 ];
 
 

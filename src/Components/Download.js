@@ -3,88 +3,99 @@ import React from "react";
 const array = [
     {
         name: "스팟지도웹서비스",
-        DownloadLink: "https://github.com/jung-jane",
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://github.com/jung-jane",
         GithubLink: "https://github.com/jung-jane"    
     },
     {
         name: "DeliveryRun",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"    
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
+        GithubLink: "https://github.com/Sookmyung-APPS/DeliveryRun"    
     },
     {
         name: "일력",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"    
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
+        GithubLink: "https://github.com/Sookmyung-APPS/Dia-lendar"    
     },
     {
         name: "LightAway",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"    
+        DownloadLink1: "https://drive.google.com/file/d/1mj1ktK3BiHZCNv3uTAlZdF3CxcqafmaR/view?usp=sharing",
+        DownloadLink2: "https://drive.google.com/file/d/1qTNxJePLBfirQA2CxoBvDZ1pu-7DYv_Y/view?usp=sharing",
+        GithubLink: "https://github.com/Sookmyung-APPS/LightAway"    
     },
     {
         name: "SoundOfFairies",
-        DownloadLink: "https://www.naver.com/",
+        DownloadLink1: "",
+        DownloadLink2: "https://drive.google.com/file/d/1ETk4Bk264G4NTTukfPhsnjkq2Faubtbt/view?usp=sharing",
         GithubLink: "https://github.com/jung-jane"    
     },
     {
         name: "Comsongz",
-        DownloadLink: "https://www.naver.com/",
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
         GithubLink: "https://github.com/jung-jane"    
     },
     {
         name: "ALittleDruid",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"    
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
+        GithubLink: "https://github.com/Sookmyung-APPS/Legend-Of-A-Little-Druid"    
     },
     {   //강단이
         name: "강단이",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"
+        DownloadLink1: "https://drive.google.com/file/d/13EAtgLMLQWWQbbkG_koALkTSG5YfVu-7/view?usp=sharing",
+        DownloadLink2: "https://drive.google.com/file/d/1WrY0fQ97xY-rfmibM3rKuAntHJl0da0F/view?usp=sharing",
+        GithubLink: "https://github.com/Sookmyung-APPS/MagicSnowflake"
           
     },
     {   //김다연
         name: "김다연",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
+        GithubLink: "https://github.com/Sookmyung-APPS/TERRAFORMING"
     },
     {   //김진영
         name: "김진영",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
+        GithubLink: "https://github.com/Sookmyung-APPS/Make-My-Wish-Come-True"
     },
     {   //박해지
         name: "박해지",
-        DownloadLink: "https://www.naver.com/",
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
         GithubLink: "https://github.com/jung-jane"
     },
     {   //이가을
         name: "이가을",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"
+        DownloadLink1: "https://drive.google.com/file/d/1NRo2BKj4raNXm_JiCq1f-oiUcaW_lsFl/view?usp=sharing",
+        DownloadLink2: "https://drive.google.com/file/d/1NRo2BKj4raNXm_JiCq1f-oiUcaW_lsFl/view?usp=sharing",
+        GithubLink: "https://github.com/Sookmyung-APPS/SNOWJUMP"
     },
     {   //장나리
         name: "장나리",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
+        GithubLink: "https://github.com/Sookmyung-APPS/SNOWRUN"
     },
     {   //정민영
         name: "정민영",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
+        GithubLink: "https://github.com/Sookmyung-APPS/2DSnowflakeGame"
     },
     {   //정채영
         name: "정채영",
-        DownloadLink: "https://www.naver.com/",
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
         GithubLink: "https://github.com/jung-jane"
     },
     {   //홍희수
         name: "홍희수",
-        DownloadLink: "https://www.naver.com/",
-        GithubLink: "https://github.com/jung-jane"
-    },
-    {   //황수연
-        name: "황수연",
-        DownloadLink: "https://www.naver.com/",
+        DownloadLink1: "https://github.com/jung-jane",
+        DownloadLink2: "https://www.naver.com/",
         GithubLink: "https://github.com/jung-jane"
     },
 ];
@@ -97,6 +108,7 @@ function Download ( { name }) {
     const devIMG = {
         justifyContent: "center",
         width: "110px", 
+        height: "110px",
         margin: "20px",
         padding: "10px",
         ObjectFit: "fill",
@@ -110,7 +122,8 @@ function Download ( { name }) {
 
     return (
         <div style={dev}>
-            <a href={array[index].DownloadLink} rel="noreferrer" target="_blank"><img style={devIMG} alt="" src={require("../Assets/download.png").default} /></a>
+            <a href={array[index].DownloadLink1} rel="noreferrer" target="_blank"><img style={devIMG} alt="" src={require("../Assets/downloadMac.png").default} /></a>
+            <a href={array[index].DownloadLink2} rel="noreferrer" target="_blank"><img style={devIMG} alt="" src={require("../Assets/downloadWindow.png").default} /></a>
             <a href={array[index].GithubLink} rel="noreferrer" target="_blank"><img style={devIMG} alt="" src={require("../Assets/github.png").default} /></a>
         </div>
     )
