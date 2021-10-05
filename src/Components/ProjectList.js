@@ -1,5 +1,5 @@
 //Project List Buttons in ProjectPage
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
 import React from "react";
 import PropTypes from 'prop-types';
 import "../Assets/ProjectPage.css";
@@ -290,7 +290,7 @@ class ProjectList extends React.Component {
         return (
             <div className="ProjectPage__ProjectList" style={{display: none_or_block}}>
                 <a className="ProejctPage__Link" href={`/project/${projectName.replace(/ /g,"")}`}>
-                <Card style={{ width: '36rem' }}>
+                <Card className = "card">
                     <Card.Img variant="top" 
                     src={img}
                     alt={projectName}/>
@@ -323,29 +323,29 @@ class ProjectList extends React.Component {
                 }
             }
         } else if(this.state.type === ""){
-            for(var i = 0; i < this.state.projectList.length; i++){
-                if(this.state.projectList[i].year === this.state.year){
-                    projectListCopy[i].display = "block";
+            for(var j = 0; j < this.state.projectList.length; j++){
+                if(this.state.projectList[j].year === this.state.year){
+                    projectListCopy[j].display = "block";
                     this.setState({
                         projectList: projectListCopy
                     }, () => {console.log(this.state)})
                 } else{
-                    projectListCopy[i].display = "none";
+                    projectListCopy[j].display = "none";
                     this.setState({
                         projectList: projectListCopy
                     }, () => {console.log(this.state)})
                 }
             }
         } else {
-            for(var i = 0; i < this.state.projectList.length; i++){
-                if(this.state.projectList[i].year === this.state.year
-                    && this.state.projectList[i].type === this.state.type){
-                    projectListCopy[i].display = "block";
+            for(var k = 0; k < this.state.projectList.length; k++){
+                if(this.state.projectList[k].year === this.state.year
+                    && this.state.projectList[k].type === this.state.type){
+                    projectListCopy[k].display = "block";
                     this.setState({
                         projectList: projectListCopy
                     }, () => {console.log(this.state)})
                 } else{
-                    projectListCopy[i].display = "none";
+                    projectListCopy[k].display = "none";
                     this.setState({
                         projectList: projectListCopy
                     }, () => {console.log(this.state)})
@@ -394,30 +394,30 @@ class ProjectList extends React.Component {
     
     YearBtn({year}){
         return (
-        <Col>
+        <span>
           <button className="year-btn-clicked" onClick={this.yearBtnHandler}>
             {year}
           </button>
-        </Col>)
+        </span>)
     };
 
     TypeBtn({type}){
         return (
-            <Col>
+            <span>
               <button className="type-btn-clicked" onClick={this.typeBtnHandler}>{type}</button>
-            </Col>
+            </span>
         )
     };
 
     render(){
         return (
             <Container className="ProjectPage__Categories">
-              <Row>
+              <div>
                 {yearList.map((year, index) => <this.YearBtn year={year} key={index} />)}
-              </Row>
-              <Row>
+              </div>
+              <div>
                 {typeList.map((type, index) => <this.TypeBtn type={type} key={index} />)}
-              </Row>
+              </div>
               <div>
                 {this.state.projectList.map(project => <this.CardList
                     projectName={project.name}

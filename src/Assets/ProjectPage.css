@@ -25,13 +25,16 @@ body{
     flex-direction: column;
 }
 
+
+/*버튼들*/
 .ProjectPage__Categories .btn-year{
     position: relative;
-    width: 120px;
+    width: 100px;
     color: #0014C6;
     font-size: 14px;
     line-height: 15px;
     padding: 10px 20px;
+    margin: 5px;
     margin-top: 30px;
     border: 2px solid #0014C6;
     border-radius: 40px;
@@ -47,12 +50,12 @@ body{
 
 .ProjectPage__Categories .btn-category {
     position: relative;
-    width: 120px;
+    width: 100px;
     color: #3787FA;
     font-size: 14px;
     line-height: 15px;
     padding: 10px 14px;
-    margin: 8px;
+    margin: 5px;
     margin-top: 20px;
     margin-bottom: 50px;
     border: 2px solid #3787FA;
@@ -72,10 +75,11 @@ body{
     background: #0014C6;
     border: 2px solid #0014C6;
     position: relative;
-    width: 120px;
+    width: 100px;
     font-size: 14px;
     line-height: 15px;
     padding: 10px 20px;
+    margin: 5px;
     margin-top: 30px;
     border-radius: 40px;
     transition: all 0.3s ease 0s;
@@ -86,16 +90,22 @@ body{
     background: #3787FA;
     border: 2px solid #3787FA;
     position: relative;
-    width: 120px;;
+    width: 100px;
     font-size: 14px;
     line-height: 15px;
     padding: 10px 14px;
-    margin: 8px;
+    margin: 5px;
     margin-top: 20px;
     margin-bottom: 50px;
     border-radius: 40px;
     transition: all 0.3s ease 0s;
 }
+
+
+
+
+
+
 
 .ProjectPage__ProjectList{
     display: block;
@@ -143,4 +153,38 @@ body{
 
 .ProejctPage__Link:hover{
     color: black;
+}
+
+.card{
+    width: 36em;
+}
+
+
+@media screen and (max-width: 768px) { 
+    .btn-year, .btn-year:hover, .year-btn-clicked{
+        width: 100px;
+    }
+    
+    .btn-category, .btn-category:hover, .type-btn-clicked{
+        width: 100px;
+    }
+
+    .card{
+        width: 20em;
+    }
+}
+
+@media screen and (min-width: 769px) { 
+    .btn-year, .year-btn-clicked{
+        width: 120px;
+        margin: 12px;
+        margin-top: 30px;
+    }
+    
+    .btn-category, .type-btn-clicked{
+        width: 120px;
+        margin: 12px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
 }
