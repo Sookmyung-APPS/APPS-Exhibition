@@ -16,7 +16,7 @@ function ImageList(){
             <tr>
                 {dummy.imageList1.map(image => (
                     <td key={image.id}>
-                        <img src={image.img} style={devImg} ></img>
+                        <img src={image.img} style={devImg} alt="" ></img>
                         
                     </td>
                 ))}
@@ -32,7 +32,7 @@ function ImageList(){
             <tr class="listingMemoji">
                 {dummy.imageList2.map(image => (
                     <td key={image.id}>
-                        <img src={image.img}  style={devImg} ></img>
+                        <img src={image.img}  style={devImg} alt="" ></img>
                         
                     </td>
                 ))}
@@ -48,7 +48,7 @@ function ImageList(){
             <tr class="listingMemoji">
                 {dummy.imageList3.map(image => (
                     <td key={image.id}>
-                        <img src={image.img}  style={devImg} ></img>
+                        <img src={image.img}  style={devImg} alt="" ></img>
 
                     </td>
                 ))}
@@ -64,8 +64,8 @@ function ImageList(){
             <tr class="listingMemoji">
                 {dummy.imageList4.map(image => (
                     <td key={image.id}>
-                        <img src={image.img}  style={devImg} ></img>
-
+                        <img src={image.img}  style={devImg} alt="" ></img>
+ 
                     </td>
                 ))}
             </tr>
@@ -80,7 +80,7 @@ function ImageList(){
             <tr class="listingMemoji">
                 {dummy.imageList5.map(image => (
                     <td key={image.id}>
-                        <img src={image.img}  style={devImg} ></img>
+                        <img src={image.img}  style={devImg} alt="" ></img>
 
                     </td>
                 ))}
@@ -96,7 +96,7 @@ function ImageList(){
             <tr class="listingMemoji">
                 {dummy.imageList6.map(image => (
                     <td key={image.id}>
-                        <img src={image.img}  style={devImg} ></img>
+                        <img src={image.img}  style={devImg} alt="" ></img>
 
                     </td>
                 ))}
@@ -104,7 +104,6 @@ function ImageList(){
             <tr class="listingMemoji">
                 {dummy.imageList6.map(image => (
                     <td key={image.id}>
-
                         <p class="memoji_n">{image.name}</p>
                     </td>
                 ))}

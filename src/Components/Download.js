@@ -107,10 +107,10 @@ function Download ( { name }) {
     }
     const devIMG = {
         justifyContent: "center",
-        width: "110px", 
-        height: "110px",
-        margin: "20px",
-        padding: "10px",
+        width: "12vw",
+        margin: "15px",
+        marginTop: "20px",
+        padding: "1vw",
         ObjectFit: "fill",
         marginBottom: "30px"
     }
