@@ -121,6 +121,10 @@ const MemojiList = [
     {
         id: 130,
         img: "/memoji/YuKyung_Hwang(황유경).png"
+    },
+    {
+        id: 131,
+        img: "/memoji/HyoRim(곽효림).png"
     }
 ]
 
@@ -148,7 +152,7 @@ function IndivMemoji ( {name} ) {
                         <img style={devIMG} src={url} alt=""  /> 
                     </div>
                 )
-            })};
+            })}
         </div>
     )
 }
