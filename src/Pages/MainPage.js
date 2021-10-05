@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import ImageMenu from "../Components/ImageMenu";
 import Video from "../Components/Video";
 import ImagePoster from "../Components/ImagePoster";
@@ -233,6 +234,7 @@ function MainPage() {
             </tbody>
           </table>
         </div>
+      <Footer />
       </div>
     </div>
   );
