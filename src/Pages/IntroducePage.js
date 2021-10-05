@@ -10,7 +10,7 @@ import Footer from "../Components/Footer";
 function IntroduePage(){
     // const infoimg = "../Assets/apps_logo.png";
     const imgstyle={
-        width:"45vw"
+        width:"500px"
     }
    return(
        <div>
