@@ -13,13 +13,12 @@ function ImagePoster(props) {
 
   return (
     <>
-      <Figure style={{ width: "20rem" }}>
+      <Figure>
         <Figure.Image
-          width={160}
-          height={225}
-          alt="171x180"
+          alt="170x240"
           src={props.poster}
           onClick={handleShow}
+          style={{ width: "16vw", boxShadow: "0 5px 15px rgba(0, 0, 0, 0.2)" }}
         />
       </Figure>
 
