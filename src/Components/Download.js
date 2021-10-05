@@ -88,8 +88,8 @@ const array = [
     },
     {   //정채영
         name: "정채영",
-        DownloadLink1: "#",
-        DownloadLink2: "#",
+        DownloadLink1: "https://drive.google.com/file/d/1eIsWPfudbMSDYrwcPgKu0tT5m1KITvfj/view?usp=sharing",
+        DownloadLink2: "https://drive.google.com/file/d/1eIsWPfudbMSDYrwcPgKu0tT5m1KITvfj/view?usp=sharing",
         GithubLink: "https://github.com/Sookmyung-APPS/RollingBall"
     },
     {   //홍희수
