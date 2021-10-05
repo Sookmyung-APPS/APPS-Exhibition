@@ -22,6 +22,11 @@ const array = [
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
   {
+    name: "일력",
+    src: "img_row/일력_세로사진.PNG",
+    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+  },
+  {
     name: "LightAway",
     src: "img_row/lightAway.jpg",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
@@ -36,11 +41,7 @@ const array = [
     src: "img_row/deliveryRun.png",
     link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
   },
-  {
-    name: "일력",
-    src: "img_row/일력_세로사진.PNG",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
-  },
+
   {
     name: "ALittleDruid",
     src: "img_row/ALittleDruid.jpg",
@@ -97,228 +98,233 @@ function MainPage() {
       <Video />
       <br />
       <br />
-      <p style={{ textAlign: "center", fontWeight: "bold" }}>
-        2021 APPS EXHIBITION
-      </p>
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          backgroundImage: "url(/배경1.png)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "100% 100%",
+          position: "absolute",
+        }}
+      >
+        <p style={{ textAlign: "center", fontWeight: "bold" }}>
+          2021 APPS EXHIBITION
+        </p>
 
-      <Row xs={2} md={5} className="g-6" style={{ margin: "0 140px" }}>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-            objectFit: "contain",
-          }}
-        >
-          <ImagePoster
-            name={array[0].name}
-            poster={array[0].src}
-            link={array[0].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-          }}
-        >
-          <ImagePoster
-            name={array[1].name}
-            poster={array[1].src}
-            link={array[1].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-          }}
-        >
-          <ImagePoster
-            name={array[2].name}
-            poster={array[2].src}
-            link={array[2].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-          }}
-        >
-          <ImagePoster
-            name={array[3].name}
-            poster={array[3].src}
-            link={array[3].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-          }}
-        >
-          <ImagePoster
-            name={array[4].name}
-            poster={array[4].src}
-            link={array[4].link}
-          />
-        </Col>
+        <Row xs={2} md={5} className="g-6" style={{ margin: "0 140px" }}>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+              objectFit: "contain",
+            }}
+          >
+            <ImagePoster
+              name={array[0].name}
+              poster={array[0].src}
+              link={array[0].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[1].name}
+              poster={array[1].src}
+              link={array[1].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[2].name}
+              poster={array[2].src}
+              link={array[2].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[3].name}
+              poster={array[3].src}
+              link={array[3].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[4].name}
+              poster={array[4].src}
+              link={array[4].link}
+            />
+          </Col>
 
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-          }}
-        >
-          <ImagePoster
-            name={array[5].name}
-            poster={array[5].src}
-            link={array[5].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-          }}
-        >
-          <ImagePoster
-            name={array[6].name}
-            poster={array[6].src}
-            link={array[6].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-          }}
-        >
-          <ImagePoster
-            name={array[7].name}
-            poster={array[7].src}
-            link={array[7].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-          }}
-        >
-          <ImagePoster
-            name={array[8].name}
-            poster={array[8].src}
-            link={array[8].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-          }}
-        >
-          <ImagePoster
-            name={array[9].name}
-            poster={array[9].src}
-            link={array[9].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-            objectFit: "contain",
-          }}
-        >
-          <ImagePoster
-            name={array[10].name}
-            poster={array[10].src}
-            link={array[10].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-            objectFit: "contain",
-          }}
-        >
-          <ImagePoster
-            name={array[11].name}
-            poster={array[11].src}
-            link={array[11].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-            objectFit: "contain",
-          }}
-        >
-          <ImagePoster
-            name={array[12].name}
-            poster={array[12].src}
-            link={array[12].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-            objectFit: "contain",
-          }}
-        >
-          <ImagePoster
-            name={array[13].name}
-            poster={array[13].src}
-            link={array[13].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-            objectFit: "contain",
-          }}
-        >
-          <ImagePoster
-            name={array[14].name}
-            poster={array[14].src}
-            link={array[14].link}
-          />
-        </Col>
-        <Col
-          style={{
-            display: "flex",
-            width: "maxWidth",
-            flexWrap: "wrap",
-            objectFit: "contain",
-          }}
-        >
-          <ImagePoster
-            name={array[15].name}
-            poster={array[15].src}
-            link={array[15].link}
-          />
-        </Col>
-      </Row>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[5].name}
+              poster={array[5].src}
+              link={array[5].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[6].name}
+              poster={array[6].src}
+              link={array[6].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[7].name}
+              poster={array[7].src}
+              link={array[7].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[8].name}
+              poster={array[8].src}
+              link={array[8].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[9].name}
+              poster={array[9].src}
+              link={array[9].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[10].name}
+              poster={array[10].src}
+              link={array[10].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[11].name}
+              poster={array[11].src}
+              link={array[11].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[12].name}
+              poster={array[12].src}
+              link={array[12].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[13].name}
+              poster={array[13].src}
+              link={array[13].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[14].name}
+              poster={array[14].src}
+              link={array[14].link}
+            />
+          </Col>
+          <Col
+            style={{
+              display: "flex",
+              width: "maxWidth",
+              flexWrap: "wrap",
+            }}
+          >
+            <ImagePoster
+              name={array[15].name}
+              poster={array[15].src}
+              link={array[15].link}
+            />
+          </Col>
+        </Row>
+      </div>
     </div>
   );
 }
