@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Components/Header";
 import ProjectList from "../Components/ProjectList";
 import Footer from "../Components/Footer";
-import "../ProjectPage.css";
+import "../Assets/ProjectPage.css";
 
 function ProjectPage() {
   return (

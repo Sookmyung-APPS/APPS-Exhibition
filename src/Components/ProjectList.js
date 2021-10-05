@@ -2,7 +2,7 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import React from "react";
 import PropTypes from 'prop-types';
-import "../ProjectPage.css";
+import "../Assets/ProjectPage.css";
 
 const yearList = ["2020", "2021"];
 const typeList = ["유니티", "웹/앱", "유니티 기초"];
@@ -19,7 +19,7 @@ const projectListCopy = [
     {
         name: "DeliveryRun",
         team: "배송불가지역",
-        img: "/images/DeliveryRun_Horizontal.jpg",
+        img: "/images/DeliveryRun_Horizontal.png",
         year: "2021",
         type: "유니티",
         display: "block"
@@ -51,7 +51,7 @@ const projectListCopy = [
     {
         name: "일력",
         team: "천생연분",
-        img: "/images/Chalendar_Horizontal.PNG",
+        img: "/images/Calendar_Horizontal.png",
         year: "2021",
         type: "웹/앱",
         display: "block"
@@ -115,7 +115,7 @@ const projectListCopy = [
     {
         name: "2D 눈송이 게임",
         team: "정민영",
-        img: "/images/Minyeong_Horizontal.jpeg",
+        img: "/images/Minyeong_Horizontal.jpg",
         year: "2021",
         type: "유니티 기초",
         display: "block"
@@ -157,7 +157,7 @@ class ProjectList extends React.Component {
                 {
                     name: "DeliveryRun",
                     team: "배송불가지역",
-                    img: "/images/DeliveryRun_Horizontal.jpg",
+                    img: "/images/DeliveryRun_Horizontal.png",
                     year: "2021",
                     type: "유니티",
                     display: "block"
@@ -189,7 +189,7 @@ class ProjectList extends React.Component {
                 {
                     name: "일력",
                     team: "천생연분",
-                    img: "/images/Chalendar_Horizontal.PNG",
+                    img: "/images/Calendar_Horizontal.png",
                     year: "2021",
                     type: "웹/앱",
                     display: "block"
@@ -253,7 +253,7 @@ class ProjectList extends React.Component {
                 {
                     name: "2D 눈송이 게임",
                     team: "정민영",
-                    img: "/images/Minyeong_Horizontal.jpeg",
+                    img: "/images/Minyeong_Horizontal.jpg",
                     year: "2021",
                     type: "유니티 기초",
                     display: "block"
