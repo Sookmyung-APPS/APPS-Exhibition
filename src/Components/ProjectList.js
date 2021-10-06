@@ -1,7 +1,6 @@
 //Project List Buttons in ProjectPage
 import { Container, Card } from "react-bootstrap";
 import React from "react";
-import PropTypes from 'prop-types';
 import "../Assets/ProjectPage.css";
 
 const yearList = ["2020", "2021"];
@@ -286,16 +285,16 @@ class ProjectList extends React.Component {
     }
 
     
-    CardList({projectName, team, img, none_or_block}) {
+    CardList({id, name, team, img, none_or_block}) {
         return (
             <div className="ProjectPage__ProjectList" style={{display: none_or_block}}>
-                <a className="ProejctPage__Link" href={`/project/${projectName.replace(/ /g,"")}`}>
+                <a className="ProejctPage__Link" href={`/project/${name.replace(/ /g,"")}`}>
                 <Card className = "card">
                     <Card.Img variant="top" 
                     src={img}
-                    alt={projectName}/>
+                    alt={name}/>
                     <Card.Body className="card-body">
-                        <Card.Title className="card-title">{projectName}</Card.Title>
+                        <Card.Title className="card-title">{name}</Card.Title>
                         <Card.Text className="card-team">
                             {team}
                             <button className="btn-gt" variant="primary">&gt;</button>
@@ -419,8 +418,9 @@ class ProjectList extends React.Component {
                 {typeList.map((type, index) => <this.TypeBtn type={type} key={index} />)}
               </div>
               <div>
-                {this.state.projectList.map(project => <this.CardList
-                    projectName={project.name}
+                {this.state.projectList.map((project, id) => <this.CardList
+                    key={id}
+                    name={project.name}
                     team={project.team}
                     img={project.img}
                     none_or_block={project.display} />)}
@@ -428,13 +428,6 @@ class ProjectList extends React.Component {
             </Container>
           );
     }
-}
-
-ProjectList.propTypes = {
-    projectName: PropTypes.string.isRequired,
-    team: PropTypes.string.isRequired,
-    img: PropTypes.string.isRequired,
-    none_or_block: PropTypes.string.isRequired
 }
 
 export default ProjectList;

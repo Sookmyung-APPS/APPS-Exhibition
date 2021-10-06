@@ -11,7 +11,7 @@ function ImageList(){
     }
     
     return <div style={dev}>
-        <table class="table">
+        <table className="table">
             <tbody>
             <tr>
                 {dummy.imageList1.map(image => (
@@ -25,11 +25,11 @@ function ImageList(){
                 {dummy.imageList1.map(image => (
                     <td key={image.id}>
                         
-                        <p class="memoji_n">{image.name}</p>
+                        <p className="memoji_n">{image.name}</p>
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList2.map(image => (
                     <td key={image.id}>
                         <img src={image.img}  style={devImg} alt="" ></img>
@@ -37,15 +37,15 @@ function ImageList(){
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList2.map(image => (
                     <td key={image.id}>
                         
-                        <p class="memoji_n">{image.name}</p>
+                        <p className="memoji_n">{image.name}</p>
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList3.map(image => (
                     <td key={image.id}>
                         <img src={image.img}  style={devImg} alt="" ></img>
@@ -53,15 +53,15 @@ function ImageList(){
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList3.map(image => (
                     <td key={image.id}>
 
-                        <p class="memoji_n">{image.name}</p>
+                        <p className="memoji_n">{image.name}</p>
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList4.map(image => (
                     <td key={image.id}>
                         <img src={image.img}  style={devImg} alt="" ></img>
@@ -69,15 +69,15 @@ function ImageList(){
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList4.map(image => (
                     <td key={image.id}>
 
-                        <p class="memoji_n">{image.name}</p>
+                        <p className="memoji_n">{image.name}</p>
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList5.map(image => (
                     <td key={image.id}>
                         <img src={image.img}  style={devImg} alt="" ></img>
@@ -85,15 +85,15 @@ function ImageList(){
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList5.map(image => (
                     <td key={image.id}>
 
-                        <p class="memoji_n">{image.name}</p>
+                        <p className="memoji_n">{image.name}</p>
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList6.map(image => (
                     <td key={image.id}>
                         <img src={image.img}  style={devImg} alt="" ></img>
@@ -101,10 +101,10 @@ function ImageList(){
                     </td>
                 ))}
             </tr>
-            <tr class="listingMemoji">
+            <tr className="listingMemoji">
                 {dummy.imageList6.map(image => (
                     <td key={image.id}>
-                        <p class="memoji_n">{image.name}</p>
+                        <p className="memoji_n">{image.name}</p>
                     </td>
                 ))}
             </tr>
