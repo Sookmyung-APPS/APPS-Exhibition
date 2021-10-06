@@ -8,7 +8,7 @@ import IntroducePage from "./Pages/IntroducePage";
 function App() {
   return (
     <span className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Route path="/" exact component={MainPage} />
         <Route path="/introduce" exact component ={IntroducePage} />
         <Route path="/project" exact component ={ProjectPage} />

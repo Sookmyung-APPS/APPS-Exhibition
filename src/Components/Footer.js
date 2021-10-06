@@ -3,7 +3,7 @@ import React from "react";
 
 const footer = {
     marginTop: "40px",
-    marginBottom: "40px",
+    marginBottom: "100px",
     opacity: "0.3",
 }
 const copy = {

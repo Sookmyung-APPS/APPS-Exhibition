@@ -5,11 +5,11 @@ import "../Assets/indiv.css";
 const array = [
     {
         name: "스팟지도웹서비스",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"    
+        link: "https://www.youtube.com/embed/AWhB7zW9W34"    
     },
     {
         name: "DeliveryRun",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+        link: "https://www.youtube.com/embed/RGu2vJFZ0JA"  
     },
     {
         name: "일력",
@@ -17,15 +17,15 @@ const array = [
     },
     {
         name: "LightAway",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk" 
+        link: "https://www.youtube.com/embed/EkKZzgq8pQM" 
     },
     {
         name: "SoundOfFairies",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk" 
+        link: "https://www.youtube.com/embed/I55nPgM8Mf4" 
     },
     {
         name: "Comsongz",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"
+        link: "https://www.youtube.com/embed/IYjtPf2HV1o"
     },
     {
         name: "ALittleDruid",
@@ -33,15 +33,15 @@ const array = [
     },
     {
         name: "강단이",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+        link: "https://www.youtube.com/embed/A43uKW7Gn6s"  
     },
     {
         name: "김다연",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+        link: "https://www.youtube.com/embed/DzbPLW9E58Q"  
     },
     {
         name: "김진영",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+        link: "https://www.youtube.com/embed/faMXNVb7XfU"  
     },
     {
         name: "박해지",
@@ -49,23 +49,23 @@ const array = [
     },
     {
         name: "이가을",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+        link: "https://www.youtube.com/embed/AOUFijGRSIs"  
     },
     {
         name: "장나리",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+        link: "https://www.youtube.com/embed/8IWmrn03KdE"  
     },
     {
         name: "정민영",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+        link: "https://www.youtube.com/embed/48zknixNfdk"  
     },
     {
         name: "정채영",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+        link: "https://www.youtube.com/embed/H3j685Fm_gY"  
     },
     {
         name: "홍희수",
-        link: "https://www.youtube.com/embed/Nr7R3mDeJsk"  
+        link: "https://www.youtube.com/embed/RGsnQtI2Thc"  
     },
 ];
 
