@@ -10,17 +10,17 @@ const array = [
   {
     name: "CapturedMoment",
     src: "img_row/순간포착_세로.png",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/AWhB7zW9W34",
   },
   {
     name: "Comsongz",
     src: "img_row/컴송즈_세로.png",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/IYjtPf2HV1o",
   },
   {
     name: "정채영",
     src: "img_row/정채영_세로사진.png",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/H3j685Fm_gY",
   },
   {
     name: "일력",
@@ -30,17 +30,17 @@ const array = [
   {
     name: "LightAway",
     src: "img_row/lightAway.jpg",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/EkKZzgq8pQM",
   },
   {
     name: "SoundOfFaires",
     src: "img_row/soundOfFairies.png",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/I55nPgM8Mf4",
   },
   {
     name: "DeliveryRun",
     src: "img_row/deliveryRun.png",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/RGu2vJFZ0JA",
   },
 
   {
@@ -51,17 +51,17 @@ const array = [
   {
     name: "정민영",
     src: "img_row/정민영_세로.jpg",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/48zknixNfdk",
   },
   {
     name: "장나리",
     src: "img_row/장나리_세로사진.jpeg",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/8IWmrn03KdE",
   },
   {
     name: "이가을",
     src: "img_row/이가을_세로사진.PNG",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/AOUFijGRSIs",
   },
   {
     name: "박해지",
@@ -71,22 +71,22 @@ const array = [
   {
     name: "김진영",
     src: "img_row/김진영_세로사진.jpeg",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/faMXNVb7XfU",
   },
   {
     name: "강단이",
     src: "img_row/강단이_세로사진.jpeg",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/A43uKW7Gn6s",
   },
   {
     name: "홍희수",
     src: "img_row/홍희수_세로사진.png",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/RGsnQtI2Thc",
   },
   {
     name: "김다연",
     src: "img_row/김다연_세로사진.png",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/DzbPLW9E58Q",
   },
 ];
 
