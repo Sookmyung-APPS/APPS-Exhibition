@@ -1,5 +1,4 @@
 import React from "react";
-// import { Container } from "react-bootstrap";
 import AppsInfo from "../Components/AppsInfo";
 import AppsMember from "../Components/AppsMember";
 import '../Assets/IntroducePage.css'
@@ -8,13 +7,12 @@ import Footer from "../Components/Footer";
 
 
 function IntroduePage(){
-    // const infoimg = "../Assets/apps_logo.png";
     const imgstyle={
         width:"500px"
     }
    return(
        <div>
-        <div class="container">
+        <div className="container">
             <Header />
         </div>
 

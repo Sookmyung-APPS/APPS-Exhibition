@@ -3,7 +3,7 @@ import React from "react";
 
 function AppsInfo(){
     return(
-        <div class="container">
+        <div className="container">
             <p id="appsinfo_1">
                 Apps는 게임, 앱, 웹 기획과 개발을 하는 소프트웨어 학부 소속 동아리입니다.<br/>
                 스터디를 통해 개발 관련 지식을 익히고, 이를 바탕으로 프로젝트를 진행하여 협업 경험도 쌓습니다.<br/>
