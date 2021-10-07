@@ -26,7 +26,7 @@ const array = [
   {
     name: "일력",
     src: "img_row/일력_세로사진.PNG",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/TYGCUgpeGoA",
   },
   {
     name: "LightAway",
@@ -41,13 +41,13 @@ const array = [
   {
     name: "DeliveryRun",
     src: "img_row/deliveryRun.png",
-    link: "https://www.youtube.com/embed/RGu2vJFZ0JA",
+    link: "https://www.youtube.com/embed/-hbDvNvVQWY",
   },
 
   {
     name: "ALittleDruid",
     src: "img_row/ALittleDruid.jpg",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/vpElwaERIK4",
   },
   {
     name: "정민영",
@@ -67,7 +67,7 @@ const array = [
   {
     name: "박해지",
     src: "img_row/박해지_세로사진.png",
-    link: "https://www.youtube.com/embed/Nr7R3mDeJsk",
+    link: "https://www.youtube.com/embed/XJWw8SnUwG4",
   },
   {
     name: "김진영",
@@ -234,7 +234,7 @@ function MainPage() {
             </tbody>
           </table>
         </div>
-      <Footer />
+        <Footer />
       </div>
     </div>
   );

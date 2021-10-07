@@ -6,7 +6,7 @@ function Video() {
     <div class="boxWarp" style={{ display: "flex", height: "100%" }}>
       <iframe
         class="box"
-        src="https://www.youtube.com/embed/yCvSR4lSqTg"
+        src="https://www.youtube.com/embed/Jl2d7gqCbN4"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
