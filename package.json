@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://smwu.com",
+  "homepage": "http://smwuapps.com",
   "eslintConfig": {
     "extends": [
       "react-app",
